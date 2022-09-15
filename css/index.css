@@ -16,8 +16,12 @@ h3{
     font-size: 1.5rem;
 }
 
-.carousel-item img{
+#carousel1 img{
     height:40rem;
+}
+
+#carousel2 img{
+    height:35rem;
 }
 
 #features{
