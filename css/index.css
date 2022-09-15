@@ -16,6 +16,10 @@ h3{
     font-size: 1.5rem;
 }
 
+.carousel-item img{
+    height:40rem;
+}
+
 #features{
     text-align: center;
     padding: 8% 10%;
