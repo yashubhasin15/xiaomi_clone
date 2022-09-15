@@ -1,0 +1,161 @@
+.navbar-brand img{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-left: 1.5rem;
+}
+
+a{
+    font-family: 'ProximaNova',Arial,Sans-serif;
+    text-decoration: none;
+}
+
+footer i{
+    color: #71C9CE;
+    /* margin-bottom: 1.5rem; */
+    transition: all 0.2s;
+}
+
+footer i:hover{
+    color: #00ADB5;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+p{
+    margin-bottom: 0;
+}
+
+.filter{
+    font-size: 1.6rem;
+    padding: 0 10px 0;
+    cursor: pointer;
+}
+
+.sort{
+    font-size: 1.4rem;
+    padding: 0 10px;
+}
+
+.card{
+    margin: 10px auto;
+    padding: 7% 5%;
+    transition: all 0.2s;
+}
+
+.card:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transform: scale(1.05)
+}
+
+.card img{
+    /* width: 15rem; */
+    height: 16rem;
+}
+
+.card-text{
+    margin-bottom: 8px;
+}
+
+footer{
+    text-align: center;
+    padding: 4% 7% 2%;
+}
+
+.socials{
+    margin:10px 40px;
+    text-decoration: none;
+}
+
+/* cart */
+
+.cart{
+	position: absolute;
+	min-height:30vh;
+	width:50%;
+	left:35%;
+	top:4rem;
+	background-color: azure;
+	z-index: 99;
+	display: none;
+	flex-direction: column;
+    border: 2px solid black;
+}
+
+.cartDisplay{
+	margin:0;
+	width:100%;
+	height:80%;
+	display: flex;
+	flex-direction: column;
+}
+.cartDisplay h2{
+	color:white;
+	background-color:#ff6900;
+	text-align: center;
+	border-bottom: 2px solid black;
+}
+
+.productBar{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: white;
+	height:160px;
+}
+
+.cartHeadings{
+	display: flex;
+	justify-content: space-around;
+}
+
+.cartHeadings strong{
+	font-size: 1.8rem;
+}
+
+.productBar .far{
+	color:#ff6900;
+	font-size: 2rem;
+	cursor: pointer;
+}
+
+.cartQuantity .fas{
+	color:#ff6900;
+	cursor: pointer;
+}
+
+.cartProduct div{
+	display: flex;
+	align-items: center
+}
+
+.totalDisplay{
+	margin: 10px 0;
+	width:100%;
+	height:20%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position:relative;
+	bottom: 0;
+}
+
+.totalDisplay p{
+	font-size: 2rem;
+	font-family: monospace;
+}
+
+.totalDisplay button{
+	font-size: 1rem;
+	font-family: monospace;
+	font-weight: bold;
+	height: 50px;
+	width:120px;
+	border-radius: 3px;
+	color:white;
+	background-color: #ff6900;
+	cursor: pointer;
+	transition: all 0.3s;
+}

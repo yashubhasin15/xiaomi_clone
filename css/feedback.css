@@ -1,0 +1,65 @@
+.navbar-brand img{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-left: 1.5rem;
+}
+
+a{
+    font-family: 'ProximaNova',Arial,Sans-serif;
+    text-decoration: none;
+}
+h1{
+    margin:2rem;
+}
+
+i{
+    color: #71C9CE;
+    /* margin-bottom: 1.5rem; */
+    transition: all 0.2s;
+}
+
+i:hover{
+    color: #00ADB5;
+}
+
+.feedback{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+table{
+    text-align: center;
+    width: 80%;
+    margin: 5rem auto;
+}
+
+th{
+    width: 5rem;
+    padding: 1%
+}
+
+.fa-face-frown{
+    color: #FF8B8B;
+}
+
+.fa-face-rolling-eyes{
+    color: #FFEE63;
+}
+
+.fa-face-smile{
+    color: lightgreen;
+}
+
+.fa-face-grin{
+    color:#3EC70B;
+}
+
+footer{
+    text-align: center;
+    padding: 4% 7% 2%;
+}
+
+.socials{
+    margin:10px 40px;
+    text-decoration: none;
+}
